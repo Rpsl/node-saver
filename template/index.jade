@@ -1,0 +1,28 @@
+html
+	head
+		title #{title}
+		style(type='text/css)
+			@import "http://save.rpsl.info/static/css/style.css";
+	body
+		#{random}
+		div#ui_bgnd
+			div#content
+				fieldset
+					legend Сохранялка
+					div.colorline
+						div Сохранялка это удивительный сервис, который позволяет сохранить копию любой страницы и показать ее вашим друзьям.
+						p &nbsp;
+						div Сохранялка полностью анонимна, она закрыта от индексаци поисковиками, а так же удаляет все страницы после 10 дней не активности.
+						p &nbsp;
+						div Просто перенсите ссылку ниже на панель закладок и нажимайте на нее, когда захотите поделиться.
+						p &nbsp;
+				fieldset
+					legend Нужная ссылка
+					div <a href="javascript: void(function(){var s=document.createElement('script'),sa='setAttribute';s[sa]('type','text/javascript');s[sa]('src','http://127.0.0.1/public/js/upload.js');document.body.appendChild(s); })();" title="SaveIt" alt="SaveIt">Save It</a>
+					
+				fieldset
+					legend About
+					div Это бесплатно. Я не даю гарантий. Взамен от вас мне ничего не надо.
+				div#footer  Безумный замысел от <a href="http://rpsl.info" target="_blank">.Rpsl</a>
+					
+		
